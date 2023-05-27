@@ -6,6 +6,8 @@
     color: $color2;
     font-size: 30px;
     text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
 }
 
 .tituloLocales {
@@ -39,4 +41,11 @@
 .img-locales img {
     border-radius: 10%;
     height: 500px;
+    transition: transform 0.3s ease-in-out;
+    transition: opacity 0.9s ease-in-out;
+
+    &:hover {
+        transform: scale(1.0);
+        opacity: 0.5;
+    }
 }

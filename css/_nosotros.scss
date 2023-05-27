@@ -21,11 +21,12 @@
     margin-top: -10%;
     display: flex;
     flex-direction: wrap;
-    gap: 5px;
+    gap: 20px;
 }
 
 .cartas-dos {
     border: 1px solid $color3;
+    box-shadow: 0 0 10px 1px $color3;
     text-align: center;
     transition: transform 0.3s ease;
 

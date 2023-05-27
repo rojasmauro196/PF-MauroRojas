@@ -109,6 +109,7 @@ body {
 
 .cartas-uno {
   border: 2px solid black;
+  box-shadow: 0 0 10px 1px black;
   text-align: center;
   transition: transform 0.3s ease;
 }
@@ -207,11 +208,12 @@ footer .redes:hover {
   margin-top: -10%;
   display: flex;
   flex-direction: wrap;
-  gap: 5px;
+  gap: 20px;
 }
 
 .cartas-dos {
   border: 1px solid #FF6B6B;
+  box-shadow: 0 0 10px 1px #FF6B6B;
   text-align: center;
   transition: transform 0.3s ease;
 }
@@ -275,6 +277,8 @@ footer .redes:hover {
 .formulario {
   margin: auto;
   border: 2px solid #00999b;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px #00999b;
 }
 
 .section-form {
@@ -336,6 +340,8 @@ button:hover {
   color: #FFFFFF;
   font-size: 30px;
   text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
 }
 
 .tituloLocales {
@@ -368,6 +374,12 @@ button:hover {
 .img-locales img {
   border-radius: 10%;
   height: 500px;
+  transition: transform 0.3s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+.img-locales img:hover {
+  transform: scale(1);
+  opacity: 0.5;
 }
 
 .productos {
@@ -397,9 +409,11 @@ button:hover {
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
 }
 .gal:hover {
-  transform: scale(1.1);
+  transform: scale(1);
+  opacity: 0.5;
 }
 
 .item1 {

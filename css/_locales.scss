@@ -1,0 +1,42 @@
+.info {
+    margin: -10% 10% 10% 0;
+}
+
+.titulo h1 {
+    color: $color2;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tituloLocales {
+    color: $color2;
+    font-weight: bold;
+
+    span {
+        color: #800080;
+    }
+}
+
+.locales {
+    color: $color2;
+    text-align: center;
+}
+
+.infoLocales {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.direccionInfo, .telefonoInfo {
+    font-weight: 600;
+}
+
+.locales a:hover {
+    color: $color3;
+}
+
+.img-locales img {
+    border-radius: 10%;
+    height: 500px;
+}

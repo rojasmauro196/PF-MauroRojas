@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,300;1,400;1,500&family=Libre+Franklin:wght@100&display=swap");
+/*font-family: 'Kanit', sans-serif;
+font-family: 'Libre Franklin', sans-serif;*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0F0F0F;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  background-color: #353535;
+}
+
+.navbar-brand {
+  color: #FFFFFF !important;
+}
+
+.nav-link {
+  color: #FFFFFF !important;
+  text-transform: capitalize;
+}
+
+.nav-link:hover {
+  color: #FF6B6B !important;
+}
+
+.navbar-toggler {
+  border-color: #FFFFFF !important;
+  border-style: dashed;
+  padding: 8px;
+}
+
+.fa-solid {
+  color: #FFFFFF;
+}
+
+.container {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container h1 {
+  text-align: center;
+}
+
+.section-one {
+  flex: 1 1 60%;
+  padding: 20px;
+}
+.section-one h1 {
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.section-one p {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.section-two {
+  flex: 1 1 40%;
+  padding: 20px;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.p1::first-letter {
+  text-transform: uppercase;
+}
+
+.section-three {
+  background-color: #353535;
+  width: 100%;
+  height: 60px;
+  padding-top: 7px;
+  text-align: center;
+}
+.section-three h2 {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+.section-three h2::first-letter {
+  text-transform: uppercase;
+}
+
+.container-two {
+  height: 720px;
+  width: 100%;
+  padding: 25px;
+  margin-top: -10%;
+  display: flex;
+  gap: 20px;
+}
+
+.cartas-uno {
+  border: 2px solid black;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.cartas-uno:hover {
+  transform: translateY(-10px);
+}
+.cartas-uno h3 {
+  color: #FFFFFF;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.cartas-uno p {
+  color: #FFFFFF;
+}
+
+.box-one {
+  border-radius: 5%;
+  background-position: center;
+  background-size: cover;
+}
+
+.upper {
+  text-transform: capitalize;
+}
+
+.cartas-im1 {
+  height: 500px;
+  background-image: url(../img/croissant-g5cb748a1c_640.jpg);
+}
+
+.cartas-im2 {
+  height: 500px;
+  background-image: url(../img/pexels-dayanne-ellys-magalhaes-15599756.jpg);
+}
+
+.cartas-im3 {
+  height: 500px;
+  background-image: url(../img/pexels-pixabay-434295.jpg);
+}
+
+footer {
+  background-color: #353535;
+  height: 90px;
+  width: 100%;
+  padding: 5px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  text-align: center;
+}
+footer p {
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+footer i {
+  color: #FFFFFF;
+  font-size: 20px;
+  padding-left: 40px;
+}
+footer .redes:hover {
+  color: #FF6B6B;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 720px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40%;
+  }
+  .container-two {
+    display: flex;
+    flex-direction: column;
+  }
+  footer i {
+    margin-right: 10%;
+  }
+}
+.hide-section {
+  background-color: #0F0F0F;
+  width: 100%;
+  height: 60px;
+  padding-top: 7px;
+  text-align: center;
+}
+.hide-section h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+.hide-section h1::first-letter {
+  text-transform: uppercase;
+}
+
+.container-three {
+  height: 800px;
+  width: 100%;
+  margin-top: -10%;
+  display: flex;
+  flex-direction: wrap;
+  gap: 5px;
+}
+
+.cartas-dos {
+  border: 1px solid #FF6B6B;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.cartas-dos h2 {
+  color: #FFFFFF;
+}
+.cartas-dos p {
+  color: #FFFFFF;
+}
+.cartas-dos:hover {
+  transform: translateY(-10px);
+}
+
+.box-two {
+  border-radius: 1%;
+  background-position: center;
+  background-size: cover;
+}
+
+.cartas-im11 {
+  height: 500px;
+  background-image: url(../img/pexels-maryia-plashchynskaya-7411170.jpg);
+}
+
+.cartas-im22 {
+  height: 500px;
+  background-image: url(../img/pexels-dinielle-de-veyra-4195342.jpg);
+}
+
+.cartas-im33 {
+  height: 500px;
+  background-image: url(../img/pexels-mart-production-7222715.jpg);
+}
+
+@media only screen and (min-width: 892px) and (max-width: 1920px) {
+  .container-three {
+    height: 800px;
+    margin-bottom: 30%;
+  }
+  .p1 {
+    padding: 5%;
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 220px) and (max-width: 891px) {
+  .container-three {
+    display: block;
+  }
+  .cartas {
+    height: 100vh;
+  }
+  .box {
+    max-height: 80vh !important;
+    height: 60vh !important;
+  }
+}
+.img-one {
+  height: 400px;
+}
+
+.formulario {
+  margin: auto;
+  border: 2px solid #00999b;
+}
+
+.section-form {
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+legend {
+  color: #FFFFFF;
+  text-transform: capitalize;
+  text-decoration: double;
+  margin-left: 10px;
+}
+
+label {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+
+fieldset {
+  padding-top: 5%;
+}
+
+input, textarea {
+  border-radius: 10px;
+  border-color: #FFFFFF;
+}
+
+.buttom {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  color: #353535;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: dashed;
+}
+button:hover {
+  background-color: #00999b;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 990px) {
+  .img-one {
+    margin-top: -20%;
+    height: 300px;
+  }
+}
+.info {
+  margin: -10% 10% 10% 0;
+}
+
+.titulo h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  text-align: center;
+}
+
+.tituloLocales {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.tituloLocales span {
+  color: #800080;
+}
+
+.locales {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.infoLocales {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.direccionInfo, .telefonoInfo {
+  font-weight: 600;
+}
+
+.locales a:hover {
+  color: #FF6B6B;
+}
+
+.img-locales img {
+  border-radius: 10%;
+  height: 500px;
+}
+
+.productos {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-top: -15%;
+  text-shadow: 1px 1px 2px #FFFFFF;
+}
+.productos h1 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.productos p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.galeria {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat 6, 400px;
+}
+
+.gal {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+}
+.gal:hover {
+  transform: scale(1.1);
+}
+
+.item1 {
+  background-image: url(../img/coffee-1711012_1280.jpg);
+}
+
+.item2 {
+  background-image: url(../img/black-2598314_1280.jpg);
+}
+
+.item3 {
+  background-image: url(../img/coffee-1487333_1280.jpg);
+}
+
+.item4 {
+  background-image: url(../img/drink-4667507_1280.jpg);
+}
+
+.item5 {
+  background-image: url(../img/caffeine-1867326_1280.jpg);
+}
+
+.item6 {
+  background-image: url(../img/cup-932054_1280.jpg);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1920px) {
+  .galeria {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .item1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .item2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .item3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .item5 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .item6 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

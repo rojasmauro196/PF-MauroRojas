@@ -1,0 +1,91 @@
+.hide-section {
+    background-color: $color4;
+    width: 100%;
+    height: 60px;
+    padding-top: 7px;
+    text-align: center;
+
+    h1 {
+        color: $color2;
+        font-size: 30px;
+    }
+
+    h1::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+.container-three {
+    height: 800px;
+    width: 100%;
+    margin-top: -10%;
+    display: flex;
+    flex-direction: wrap;
+    gap: 5px;
+}
+
+.cartas-dos {
+    border: 1px solid $color3;
+    text-align: center;
+    transition: transform 0.3s ease;
+
+    h2 {
+        color: $color2;
+    }
+
+    p {
+        color: $color2;
+    }
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.box-two {
+    border-radius: 1%;
+    background-position: center;
+    background-size: cover;
+}
+
+.cartas-im11 {
+    height: 500px;
+    background-image: url(../img/pexels-maryia-plashchynskaya-7411170.jpg);
+}
+
+.cartas-im22 {
+    height: 500px;
+    background-image: url(../img/pexels-dinielle-de-veyra-4195342.jpg);
+}
+
+.cartas-im33 {
+    height: 500px;
+    background-image: url(../img/pexels-mart-production-7222715.jpg);
+}
+
+@media only screen and (min-width: 892px) and (max-width: 1920px) {
+    .container-three {
+        height: 800px;
+        margin-bottom: 30%;
+    }
+
+    .p1 {
+        padding: 5%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 220px) and (max-width: 891px) {
+    .container-three {
+        display: block;
+    }
+
+    .cartas {
+        height: 100vh;
+    }
+
+    .box {
+        max-height: 80vh !important;
+        height: 60vh !important;
+    }
+}

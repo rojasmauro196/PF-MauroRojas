@@ -331,6 +331,9 @@ button:hover {
     margin-top: -20%;
     height: 300px;
   }
+  .formulario {
+    height: 600px;
+  }
 }
 .info {
   margin: -10% 10% 10% 0;
